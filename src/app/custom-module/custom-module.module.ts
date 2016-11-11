@@ -2,16 +2,19 @@ import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
 import mySD from './my-structural-directive';
+import myAD from './my-attribute-directive';
 
 @NgModule({
     imports: [
         CommonModule
     ],
     declarations: [
-        mySD
+        mySD,
+        myAD
     ],
     exports: [
-        mySD
+        mySD,
+        myAD
     ]
 })
 
